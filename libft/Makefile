@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ubartemi <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: ubartemi <ubartemi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/04 17:10:54 by ubartemi          #+#    #+#              #
-#    Updated: 2019/04/18 22:39:27 by ubartemi         ###   ########.fr        #
+#    Updated: 2019/05/03 15:24:43 by ubartemi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ SRC = ft_atoi.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c \
 	  ft_isspace.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c \
 	  ft_itoa.c ft_memdel.c ft_strclr.c ft_strncat.c \
 	  ft_lennum.c ft_memmove.c ft_strcmp.c ft_strncmp.c \
-	  ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c
+	  ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_strndup.c
 OBJ = $(SRC:.c=.o)
 INCL = libft.h
 
